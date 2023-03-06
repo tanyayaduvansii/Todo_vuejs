@@ -13,6 +13,7 @@
                     <div class="ms-2 me-auto">
                         {{ i.m }}
                     </div>
+                    
                     <button class="badge bg-warning  pill" @click="DeleteTask(i.id)"><i
                             class="fa fa-trash"></i></button>&nbsp;
                     <button class="badge bg-success  pill" style="background-color: white;" @click="EditTask(i.id)"><i
